@@ -1,0 +1,177 @@
+{
+  "asset" : {
+    "version" : "2.0",
+    "generator" : "3D-Coat GLTF exporter at http:\\3d-coat.com"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "name" : "Scene",
+      "nodes" : [0]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Cylinder085",
+      "mesh" : 0,
+      "matrix" : [1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000]
+    }
+  ],
+  "meshes" : [
+    {
+      "name" : "Cylinder085",
+      "primitives" : [
+        {
+          "mode" : 4,
+          "indices" : 4,
+          "material" : 0,
+          "attributes" : {
+            "POSITION" : 0,
+            "NORMAL" : 1,
+            "TANGENT" : 2,
+            "TEXCOORD_0" : 3
+          }
+        }
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "pbrMetallicRoughness" : {
+        "metallicFactor" : 0.000000,
+        "roughnessFactor" : 1.000000,
+        "baseColorFactor" : [1.00000000,1.00000000,1.00000000,1.00000000],
+        "baseColorTexture" : {
+          "index" : 0,
+          "texCoord" : 0
+        }
+      },
+      "normalTexture" : {
+        "scale" : 1.000000,
+        "index" : 2,
+        "texCoord" : 0
+      },
+      "emissiveTexture" : {
+        "index" : 1,
+        "texCoord" : 0
+      }
+    }
+  ],
+  "textures" : [
+    {
+      "sampler" : 0,
+      "source" : 0
+    },
+    {
+      "sampler" : 1,
+      "source" : 1
+    },
+    {
+      "sampler" : 2,
+      "source" : 2
+    }
+  ],
+  "samplers" : [
+    {
+      "minFilter" : 9987,
+      "magFilter" : 9729,
+      "wrapS" : 10497,
+      "wrapT" : 10497
+    },
+    {
+      "minFilter" : 9987,
+      "magFilter" : 9729,
+      "wrapS" : 10497,
+      "wrapT" : 10497
+    },
+    {
+      "minFilter" : 9987,
+      "magFilter" : 9729,
+      "wrapS" : 10497,
+      "wrapT" : 10497
+    }
+  ],
+  "images" : [
+    {
+      "uri" : "C:\\Users\\pinew\\OneDrive\\Desktop\\LifeCraft\\LifecraftBlender\\Lifecraft_LifeCraft_baseColor.png"
+    },
+    {
+      "uri" : "C:\\Users\\pinew\\OneDrive\\Desktop\\LifeCraft\\LifecraftBlender\\Lifecraft_LifeCraft_emission.jpg"
+    },
+    {
+      "uri" : "C:\\Users\\pinew\\OneDrive\\Desktop\\LifeCraft\\LifecraftBlender\\Lifecraft_LifeCraft_normal.png"
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 35382,
+      "normalized" : true,
+      "min" : [-65.32402039,14.96449089,-59.09384918],
+      "max" : [33.40406036,75.57084656,62.34305573],
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5126,
+      "count" : 35382,
+      "normalized" : true,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 35382,
+      "normalized" : true,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 35382,
+      "normalized" : true,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5125,
+      "count" : 67320,
+      "normalized" : false,
+      "type" : "SCALAR"
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 424584
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 424584,
+      "byteLength" : 424584
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 849168,
+      "byteLength" : 566112
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1415280,
+      "byteLength" : 283056
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1698336,
+      "byteLength" : 269280
+    }
+  ],
+  "buffers" : [
+    {
+      "byteLength" : 1967616,
+      "uri" : "C:\\Users\\pinew\\OneDrive\\Desktop\\LifeCraft\\LifecraftBlender\\LifeCraft.bin"
+    }
+  ]
+}
